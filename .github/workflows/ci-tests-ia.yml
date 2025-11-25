@@ -1,7 +1,9 @@
 name: "CI - Tests Automatisés avec IA"
     
 on: 
-  push: [sgoales]
+  push:
+    branches: 
+      - sgoales
 jobs:
   test-and-analyze:
     name: Tests + Analyse IA
