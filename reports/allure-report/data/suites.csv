@@ -1,0 +1,44 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"
+GIVEN un nombre inférieur à 2
+WHEN je vérifie
+THEN retourne False
+","0","test_je_vérifie","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"
+GIVEN le diviseur est zéro
+WHEN je calcule le modulo
+THEN une exception est levée
+","0","test_je_calcule_le_modulo","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"
+GIVEN une division décimale
+WHEN je divise
+THEN le résultat est précis
+","1","test_je_divise","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"Test après une opération de calcul","2952","test_after_calculation","tests.visual","2025-11-25","passed","2025-11-25","TestCalculatorVisual","test_calculator_ui","",""
+"
+GIVEN deux nombres décimaux
+WHEN j'additionne
+THEN le résultat est précis
+","1","test_jadditionne","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"Test de l'état initial de la calculatrice","1695","test_initial_state","tests.visual","2025-11-25","passed","2025-11-25","TestCalculatorVisual","test_calculator_ui","",""
+"Test du contenu affiché (test fonctionnel en bonus)","1582","test_display_content","tests.visual","2025-11-25","passed","2025-11-25","TestCalculatorVisual","test_calculator_ui","",""
+"
+GIVEN deux nombres négatifs
+WHEN je multiplie
+THEN le résultat est positif
+","0","test_je_multiplie","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"
+GIVEN un nombre négatif
+WHEN je calcule la factorielle
+THEN une exception est levée
+","0","test_je_calcule_la_factorielle","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"
+GIVEN un exposant de zéro
+WHEN je calcule la puissance
+THEN le résultat est 1
+","0","test_je_calcule_la_puissance","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
+"
+GIVEN le résultat est négatif
+WHEN je soustrais
+THEN le signe est correct
+","0","test_je_soustrais","tests.generated","2025-11-25","passed","2025-11-25","TestCalculatorGenerated","test_calculator_generated","",""
