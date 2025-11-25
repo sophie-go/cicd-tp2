@@ -42,13 +42,17 @@ jobs:
         run: |
           npm install -g allure-commandline
           allure generate reports/allure-results --clean -o reports/allure-report
-      - name: test-reports
+      - name: Upload des rapports
         uses: actions/upload-artifact@v5
-        path: reports/
-        retention-days: 30
-      - name: screenshots
+        with:
+          name: test-reports
+          path: reports/
+          retention-days: 30
+      - name: Upload des screenshots
         uses: actions/upload-artifact@v5
-        path: screenshots/
-        retention-days: 30
+        with:
+          name: screenshots
+          path: screenshots/
+          retention-days: 30
 
 
